@@ -1,16 +1,10 @@
 <mat-spinner *ngIf="loading"></mat-spinner>
 <p class="text-center" *ngIf="projet.length <= 0 && !loading">Pas de projets !</p>
 <div class="projet-grid" *ngIf="projet.length >= 0">
-<<<<<<< HEAD
-  <h2 class="text-center" > Liste des projets</h2>  
-  <table class="table table-striped">
-    <thead>
-=======
   <h2 class="text-center" > Liste des projets</h2>
   
   <table id= "projettable" class="table table-striped">
     <thead class="thead-default">
->>>>>>> 81d4a11... add link external tab
     <tr>
 
       
@@ -29,14 +23,9 @@
     </tr>
     </thead>
     <tbody>
-<<<<<<< HEAD
-    <tr *ngFor="let project of projet">
-
-=======
       
     <tr *ngFor="let project of projet" >
       
->>>>>>> 81d4a11... add link external tab
       <td>{{project._id}}</td>
       <td>{{project.title}}</td>
       
